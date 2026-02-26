@@ -20,6 +20,16 @@ IP-CIDR,180.76.76.76/32,no-resolve
 IP-CIDR,114.114.114.114/32,no-resolve
 IP-CIDR,114.114.115.115/32,no-resolve
 
+# tag订阅
+DOMAIN-SUFFIX,siamparagon.org
+DOMAIN,rama991.siamparagon.org
+DOMAIN-SUFFIX,nobodys.uk
+DOMAIN,link01.nobodys.uk
+DOMAIN-SUFFIX,central-world.org
+DOMAIN,huaikhwang.central-world.org
+DOMAIN-SUFFIX,parkson-market.org
+DOMAIN,villa.parkson-market.org
+
 # 个人添加
 DOMAIN,tlu.dl.delivery.mp.microsoft.com
 DOMAIN,software.download.prss.microsoft.com
@@ -42,14 +52,4 @@ DOMAIN-SUFFIX,fengkongcloud.com
 DOMAIN-SUFFIX,xhscdn.com
 DOMAIN-SUFFIX,xhscdn.net
 DOMAIN-SUFFIX,xiaohongshu.com
-
-# tag订阅
-DOMAIN-SUFFIX,siamparagon.org
-DOMAIN,rama991.siamparagon.org
-DOMAIN-SUFFIX,nobodys.uk
-DOMAIN,link01.nobodys.uk
-DOMAIN-SUFFIX,central-world.org
-DOMAIN,huaikhwang.central-world.org
-DOMAIN-SUFFIX,parkson-market.org
-DOMAIN,villa.parkson-market.org
 DOMAIN-SUFFIX,maposafe.com

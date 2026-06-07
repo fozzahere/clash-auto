@@ -59,13 +59,12 @@ DOMAIN,updates.cdn-apple.com
 
 # iCloud
 # ===== iCloud 核心 =====
-DOMAIN-SUFFIX,icloud.com
+# DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,apple-cloudkit.com
-DOMAIN-SUFFIX,apple.com
 # ===== iCloud 登录/账户 =====
-DOMAIN,idmsa.apple.com
-DOMAIN,gsa.apple.com
-DOMAIN,setup.icloud.com
+# DOMAIN,idmsa.apple.com
+# DOMAIN,gsa.apple.com
+# DOMAIN,setup.icloud.com
 # ===== iCloud Drive / 备份 / 同步 =====
 DOMAIN,cvws.icloud-content.com
 DOMAIN,cvws.icloud.com

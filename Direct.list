@@ -1,5 +1,4 @@
 # 直连补充列表(国内域名不解析时，防止走代理使用)
-# MyList
 # 域名后缀匹配
 DOMAIN-SUFFIX,time.windows.com
 DOMAIN-SUFFIX,lanzov.com
@@ -30,22 +29,51 @@ DOMAIN,huaikhwang.central-world.org
 DOMAIN-SUFFIX,parkson-market.org
 DOMAIN,villa.parkson-market.org
 
-# 个人添加
+# Windows Update / 系统更新
+DOMAIN-SUFFIX,windowsupdate.com
+DOMAIN-SUFFIX,update.microsoft.com
+DOMAIN-SUFFIX,windowsupdate.microsoft.com
+DOMAIN-SUFFIX,windowsupdate.com
+DOMAIN-SUFFIX,download.windowsupdate.com
+DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
+DOMAIN-SUFFIX,delivery.mp.microsoft.com,
+DOMAIN-SUFFIX,windowsupdate.com.delivery.microsoft.com
+
+# Microsoft Store
 DOMAIN,tlu.dl.delivery.mp.microsoft.com
 DOMAIN,software.download.prss.microsoft.com
 DOMAIN,software-static.download.prss.microsoft.com
-DOMAIN-SUFFIX,www.dogfight360.com
-DOMAIN,gs2.ww.prod.dl.playstation.net
-DOMAIN-KEYWORD,vivox
-DOMAIN-SUFFIX,vivox.com
-IP-CIDR,42.186.128.0/17,no-resolve
-IP-CIDR,42.186.0.0/16,no-resolve
-DOMAIN-SUFFIX,akadns.net
+
+# App下载
+DOMAIN,iosapps.itunes.apple.com
+DOMAIN,aod.itunes.apple.com
 DOMAIN,xp.itunes.apple.com
-# DOMAIN,xp.itunes-apple.com.akadns.net
 DOMAIN,init.itunes.apple.com
-DOMAIN-SUFFIX,icloud-content.com
+
+# IOS更新
+DOMAIN,mesu.apple.com
+DOMAIN,gdmf.apple.com
+DOMAIN,xp.apple.com
+DOMAIN,appldnld.apple.com
 DOMAIN,updates.cdn-apple.com
+
+# iCloud
+# ===== iCloud 核心 =====
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,apple.com
+# ===== iCloud 登录/账户 =====
+DOMAIN,idmsa.apple.com
+DOMAIN,gsa.apple.com
+DOMAIN,setup.icloud.com
+# ===== iCloud Drive / 备份 / 同步 =====
+DOMAIN,cvws.icloud-content.com
+DOMAIN,cvws.icloud.com
+# ===== Apple Push / 同步通道 =====
+DOMAIN-SUFFIX,push-apple.com.akadns.net
+DOMAIN-SUFFIX,icloud-content.com
+
+# 个人添加
 DOMAIN-SUFFIX,ts3.red
 DOMAIN-SUFFIX,ts3.com
 DOMAIN-SUFFIX,fengkongcloud.com
@@ -53,3 +81,10 @@ DOMAIN-SUFFIX,xhscdn.com
 DOMAIN-SUFFIX,xhscdn.net
 DOMAIN-SUFFIX,xiaohongshu.com
 DOMAIN-SUFFIX,maposafe.com
+DOMAIN-SUFFIX,www.dogfight360.com
+DOMAIN,gs2.ww.prod.dl.playstation.net
+DOMAIN-KEYWORD,vivox
+DOMAIN-SUFFIX,vivox.com
+IP-CIDR,42.186.128.0/17,no-resolve
+IP-CIDR,42.186.0.0/16,no-resolve
+DOMAIN-SUFFIX,akadns.net

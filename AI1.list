@@ -11,10 +11,6 @@ DOMAIN-SUFFIX,apple-relay.akamaized.net
 DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
 DOMAIN-KEYWORD,apple-relay
 
-# Copilot
-DOMAIN,copilot.microsoft.com
-DOMAIN-SUFFIX,bing.com
-
 # OpenAI
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,chat.openai.com.cdn.cloudflare.net

@@ -1,20 +1,16 @@
-# Apple Intelligence、Siri和搜索
-DOMAIN-SUFFIX, gateway.icloud.com
-DOMAIN-SUFFIX, apple-relay.apple.com
-DOMAIN-SUFFIX, apple-relay.fastly-edge.com
-DOMAIN-SUFFIX, apple-relay.cloudflare.com
-DOMAIN-SUFFIX, guzzoni.apple.com
-DOMAIN-SUFFIX, cp4.cloudflare.com
-DOMAIN-SUFFIX, gspe1-ssl.ls.apple.com
-DOMAIN-SUFFIX, smoot.apple.com
-DOMAIN-SUFFIX, apple-relay.akamaized.net
-DOMAIN-SUFFIX, apple-relay.mask.apple-dns.net
-DOMAIN-SUFFIX, aapps.mzstatic.com
-DOMAIN,gspe1-ssl.ls.apple.com
-DOMAIN,news-client-search.apple.com
-IP-CIDR,17.248.152.145/24,no-resolve
-IP-CIDR,17.248.152.113/24,no-resolve
-# DOMAIN-KEYWORD,apple-relay
+# Apple Intelligence
+DOMAIN-SUFFIX,gateway.icloud.com
+DOMAIN-SUFFIX,apple-relay.apple.com
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,guzzoni.apple.com
+DOMAIN-SUFFIX,cp4.cloudflare.com
+DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
+DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN-SUFFIX,apple-relay.akamaized.net
+DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
+DOMAIN-KEYWORD,apple-relay
+DOMAIN-KEYWORD,apple-relay
 
 # Copilot
 DOMAIN,copilot.microsoft.com
@@ -57,27 +53,7 @@ IP-CIDR,24.199.123.28/32,no-resolve
 IP-CIDR,64.23.132.171/32,no-resolve
 IP-ASN,20473,no-resolve
 
-# Gemini
-# DOMAIN,ai.google.dev
-# DOMAIN,alkalimakersuite-pa.clients6.google.com
-# DOMAIN,makersuite.google.com
-# DOMAIN-SUFFIX,bard.google.com
-# DOMAIN-SUFFIX,deepmind.com
-# DOMAIN-SUFFIX,deepmind.google
-# DOMAIN-SUFFIX,gemini.google.com
-# DOMAIN-SUFFIX,generativeai.google
-# DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-# DOMAIN-SUFFIX,apis.google.com
-# DOMAIN-KEYWORD,colab
-# DOMAIN-KEYWORD,developerprofiles
-# DOMAIN-KEYWORD,generativelanguage
-
 # Claude
 DOMAIN,cdn.usefathom.com
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
-
-# Grok
-# DOMAIN-SUFFIX,grok.com
-# DOMAIN-SUFFIX,x.com
-# DOMAIN-SUFFIX,x.ai

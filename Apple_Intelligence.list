@@ -1,14 +1,14 @@
 # Siri / Apple Intelligence
 # IMPORTANT:
 # These rules MUST stay before apple-domain DIRECT.
+DOMAIN,gs-loc-cn.apple.com 
+DOMAIN,api-siri-prod.apple.com
 DOMAIN,gateway.icloud.com
 DOMAIN,seed.siri.apple.com
 DOMAIN,probe.icloud.com
 DOMAIN,metrics.icloud.com
 DOMAIN,guzzoni.apple.com
 DOMAIN-SUFFIX,smoot.apple.com
-DOMAIN,api-siri-prod.apple.com
-DOMAIN,gs-loc-cn.apple.com 
 #
 # Apple Intelligence / Private Cloud Compute
 DOMAIN,apple-relay.apple.com

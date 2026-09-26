@@ -45,24 +45,11 @@ DOMAIN,xp.apple.com
 # DOMAIN,appldnld.apple.com
 DOMAIN,updates.cdn-apple.com
 
-# iCloud
-# ===== iCloud 核心 =====
-# DOMAIN-SUFFIX,icloud.com
-DOMAIN-SUFFIX,apple-cloudkit.com
-# ===== iCloud 登录/账户 =====
-# DOMAIN,idmsa.apple.com
-# DOMAIN,gsa.apple.com
-# DOMAIN,setup.icloud.com
-# ===== iCloud Drive / 备份 / 同步 =====
-##DOMAIN,cvws.icloud-content.com
-##DOMAIN,cvws.icloud.com
-# ===== Apple Push / 同步通道 =====
-##DOMAIN-SUFFIX,push-apple.com.akadns.net
-##DOMAIN-SUFFIX,icloud-content.com
-
 # 个人添加
 DOMAIN-SUFFIX,ts3.red
+DOMAIN-SUFFIX,ts3.one
 DOMAIN-SUFFIX,ts3.com
+DOMAIN-SUFFIX,ts39.top
 DOMAIN-SUFFIX,fengkongcloud.com
 DOMAIN-SUFFIX,xhscdn.com
 DOMAIN-SUFFIX,xhscdn.net

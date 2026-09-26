@@ -7,18 +7,6 @@ DOMAIN-SUFFIX,lanzov.com
 # IP段匹配
 IP-CIDR,219.146.1.66/32,no-resolve
 
-# 国内DNS
-DOMAIN-SUFFIX,dns.alidns.com
-DOMAIN-SUFFIX,doh.pub
-IP-CIDR,219.146.1.66/32,no-resolve
-IP-CIDR,219.147.1.66/32,no-resolve
-IP-CIDR,119.29.29.29/32,no-resolve
-IP-CIDR,223.5.5.5/32,no-resolve
-IP-CIDR,223.6.6.6/32,no-resolve
-IP-CIDR,180.76.76.76/32,no-resolve
-IP-CIDR,114.114.114.114/32,no-resolve
-IP-CIDR,114.114.115.115/32,no-resolve
-
 # tag订阅
 DOMAIN-SUFFIX,siamparagon.org
 DOMAIN,rama991.siamparagon.org
@@ -66,11 +54,11 @@ DOMAIN-SUFFIX,apple-cloudkit.com
 # DOMAIN,gsa.apple.com
 # DOMAIN,setup.icloud.com
 # ===== iCloud Drive / 备份 / 同步 =====
-DOMAIN,cvws.icloud-content.com
-DOMAIN,cvws.icloud.com
+##DOMAIN,cvws.icloud-content.com
+##DOMAIN,cvws.icloud.com
 # ===== Apple Push / 同步通道 =====
-DOMAIN-SUFFIX,push-apple.com.akadns.net
-DOMAIN-SUFFIX,icloud-content.com
+##DOMAIN-SUFFIX,push-apple.com.akadns.net
+##DOMAIN-SUFFIX,icloud-content.com
 
 # 个人添加
 DOMAIN-SUFFIX,ts3.red
